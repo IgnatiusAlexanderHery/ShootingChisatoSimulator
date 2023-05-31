@@ -1,2 +1,2 @@
 # ShootingChisatoSimulator
-A simulator of Chisato's superpower to dodging projectiles
+A simulator of Chisato superpower to dodging projectiles
