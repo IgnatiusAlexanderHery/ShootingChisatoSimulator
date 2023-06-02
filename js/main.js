@@ -32,7 +32,7 @@ function create() {
   ammoText = this.add.text(10, 0, Ammo + "/" + MaxAmmo);
   ammoText.setDisplaySize(100, 100);
   ammoText.setDepth(3);
-  document.body.style.cursor = "url('/assets/aim.png'), auto";
+  document.body.style.cursor = "url('../ShootingChisatoSimulator/assets/aim.png'), auto";
   var isPointerDown = false;
   var background = this.add.image(config.width / 2, config.height / 2, "background");
   background.setDisplaySize(config.width, config.height);
