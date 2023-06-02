@@ -10,8 +10,8 @@ var config = {
 };
 
 var game = new Phaser.Game(config);
-var audio = new Audio("/assets/shotting.wav");
-var reload = new Audio("/assets/reload.wav");
+var audio = new Audio("../ShootingChisatoSimulator/assets/shotting.wav");
+var reload = new Audio("../ShootingChisatoSimulator/assets/reload.wav");
 var audio_on = false;
 var delayShoot = true;
 var Ammo = 30;
@@ -19,12 +19,12 @@ var MaxAmmo = 30;
 var ammoText;
 
 function preload() {
-  this.load.image("background", "/assets/bg.png");
-  this.load.image("person", "/assets/stop.png");
-  this.load.image("personleft", "/assets/left.png");
-  this.load.image("personright", "/assets/right.png");
-  this.load.image("hole", "/assets/hole.png");
-  this.load.image("light", "/assets/shot_flash.png");
+  this.load.image("background", "../ShootingChisatoSimulator/assets/bg.png");
+  this.load.image("person", "../ShootingChisatoSimulator/assets/stop.png");
+  this.load.image("personleft", "../ShootingChisatoSimulator/assets/left.png");
+  this.load.image("personright", "../ShootingChisatoSimulator/assets/right.png");
+  this.load.image("hole", "../ShootingChisatoSimulator/assets/hole.png");
+  this.load.image("light", "../ShootingChisatoSimulator/assets/shot_flash.png");
 }
 
 function create() {
