@@ -1,6 +1,8 @@
 # ShootingChisatoSimulator
 A simulator of Chisato superpower to dodging projectiles
 
+Test Live : https://ignatiusalexanderhery.github.io/ShootingChisatoSimulator/
+
 ![image](https://github.com/IgnatiusAlexanderHery/ShootingChisatoSimulator/assets/120075660/11754bc8-7192-4083-bdbc-3b0ce6e2ee5b)
 
 
