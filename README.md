@@ -13,3 +13,6 @@ example : ../ShootingChisatoSimulator/assets/shotting.wav to ../assets/shotting.
 
 How to play : 
 Just move cursor and click it, Chisato will dodge the bullet, you can shoot 30 bullet per spary
+
+
+Create with Phaser
