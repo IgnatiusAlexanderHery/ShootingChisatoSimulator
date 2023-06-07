@@ -94,7 +94,7 @@ function create() {
     if (pointer.x - person.x >= -100 && pointer.x - person.x <= 20) {
       extraDodge = 70;
     }
-    if (!isHit(person.x - pointer.x)) {
+    if (!isHit(person.x - pointer.x, person.y - pointer.y)) {
       return;
     }
     if (pointer.x < person.x && trigger < -20) {
@@ -143,8 +143,8 @@ function create() {
     }
   }
 
-  function isHit(value) {
-    if (value >= -50 && value <= 172) return true;
+  function isHit(value, value2) {
+    if ((value >= -50 && value <= 172) || value2 <= -70) return true;
     return false;
   }
 }
